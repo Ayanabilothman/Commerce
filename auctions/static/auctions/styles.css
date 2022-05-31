@@ -1,0 +1,175 @@
+body {
+    padding: 10px;
+    font-family: 'Play', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* Changes doesn't reflect on the web page may be beacause of chaching just clear the cache :D*/
+.signin-name {
+    text-align: right;
+}
+
+.title{
+    padding-left: 30px;
+}
+.item-name {
+    margin: 10px;
+    font-size: 30px;
+    color: #007bff;
+}
+
+.listing-info img {
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.listing-image img{
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.listing-container{
+    margin: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.item {
+    margin: 30px 120px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 250px;
+    text-align: left;
+}
+
+
+.listing-name{
+    font-size: 40px;
+    color: #007bff;
+}
+
+.listing-description{
+    font-size: 20px;
+    color: black;
+}
+
+.listing-price {
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+}
+
+.listing {
+    border: solid grey 2px;
+    width: 300px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.listing-info {
+    text-align: center;
+    margin: 10px;
+}
+
+.item-description{
+    font-size: 15px;
+}
+.item-price {
+    font-size: 20px;
+}
+
+.form-container, .listing-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-image {
+
+}
+
+.form-input {
+    width: 500px;
+    height: auto;
+    margin: 5px 10px;
+}
+
+.form-submit {
+    margin-left: 10px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+.bid-btn {
+    margin-left: 10px;
+}
+
+
+.submit-bid  {
+    margin-top: 20px;
+}
+
+
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 100px;
+}
+
+.comments-container {
+    margin: 20px 120px;
+}
+
+.comments {
+    border-radius: 5px;
+    background: #CDCDCD;
+}
+
+.comment {
+    padding-bottom: 10px;
+}
+
+.commenter {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.content {
+    margin: 0px 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+.comment-btn {
+    text-align: right;
+}
+
+.bid-count {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.commentarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}

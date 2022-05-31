@@ -1,0 +1,17 @@
+<div>Current Listing</div>
+
+<div class="listing-page"> <img src='{{item.image}}'> </div>
+<div class="listing-page"> {{item.name}} </div>
+<div class="listing-page"> {{item.description}} </div>
+<div class="listing-page"> {{item.category}} </div>
+<div class="listing-page"> {{item.current_bid}}<span>$</span> </div>
+<div class="listing-page"> Created by {{item.owner}} </div>
+<div class="listing-page"> Item Id {{item.id}} </div>
+
+<hr>
+<hr>
+<div>Current User is {{current_user}}</div>
+{% for bid in bids %}
+    <div>bidvalue = {{bid.value}}</div>
+    <div>bidder = {{bid.bidder}}</div>
+{% endfor %}

@@ -1,0 +1,19 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+
+    <h2>Items in {{category}}</h2>
+    <div class="listing-container">
+    {% for listing in listings %}
+        <div class="listing">
+            <div class="listing-info item-name"> {{listing.name}} </div>
+            <div class="listing-info item-image"> <a href="{% url 'item' listing.id %}"><img src='{{listing.image}}'></a> </div>
+            <div class="listing-info item-description"> {{listing.description}} </div>
+            <div class="listing-info item-price"> {{listing.max_bid}}<span>$</span> </div>
+            <!--<div class="listing-info"> {{listing.category}} </div>-->
+        </div>
+    {% empty %}
+        <div> No Available Items </div>
+    {% endfor %}
+
+{% endblock %}
